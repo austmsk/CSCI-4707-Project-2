@@ -7,7 +7,7 @@ Homework Instructions:
 ## Team Members
 
 - Austin Musoke (musok019)
--
+- Krishna Bhatt (bhatt413)
 
 Homework 1 is worth 100 points, and partial credit may be awarded for incomplete or incorrect
 answers. Homework is due on Friday, May, by 11:59 p.m., and should be uploaded to Canvas.
