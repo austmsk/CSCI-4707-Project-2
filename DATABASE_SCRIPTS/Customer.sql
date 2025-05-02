@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS Customers (
     CustomerID       INT  PRIMARY KEY,
-    FirstName        VARCHAR(50)  NOT NULL,
-    LastName         VARCHAR(50)  NOT NULL,
-    Email            VARCHAR(255) NOT NULL UNIQUE,
-    Phone            VARCHAR(20),
+    Email        VARCHAR(255)  NOT NULL,
+    Phone         VARCHAR(20), 
+    FirstName            VARCHAR(255) NOT NULL UNIQUE,
+    LastName            VARCHAR(20) NOT NULL UNIQUE,
 ); 
