@@ -4,4 +4,5 @@ CREATE TABLE IF NOT EXISTS Customers (
     Phone VARCHAR(20), 
     FirstName VARCHAR(255) NOT NULL UNIQUE,
     LastName VARCHAR(20) NOT NULL UNIQUE,
+    BillingAdress VARCHAR(200) NOT NULL
 ); 
