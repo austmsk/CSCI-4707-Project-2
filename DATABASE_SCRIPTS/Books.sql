@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS Books (
     Genre VARCHAR(50) NOT NULL,
     Price DECIMAL(10,2) NOT NULL,
     PublicationYear YEAR,
-    StockQuantity INT,
-    PublisherID INT,
+    StockQuantity NOT NULL,
+    PublisherID NOT NULL,
     FOREIGN KEY (PublisherID) REFERENCES Publishers(PublisherID)
 );

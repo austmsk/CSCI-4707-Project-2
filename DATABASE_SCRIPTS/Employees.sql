@@ -4,5 +4,5 @@ CREATE TABLE IF NOT EXISTS Employees (
     LastName    VARCHAR(50) NOT NULL,
     Position    VARCHAR(50) NOT NULL,
     ManagerID  INT, 
-    FOREIGN KEY (ManagerID) REFERENCES Employees(EmployeeID); 
+    FOREIGN KEY (ManagerID) REFERENCES Employees(EmployeeID)
 ); 
